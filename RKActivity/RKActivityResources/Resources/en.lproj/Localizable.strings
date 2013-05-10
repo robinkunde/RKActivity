@@ -1,0 +1,37 @@
+
+/* Buttons */
+"button.cancel"="Cancel";
+"button.dismiss"="Dismiss";
+"button.login"="Log In";
+"button.ok"="OK";
+
+/* Copy */
+"activity.Copy.title"="Copy";
+
+/* Facebook */
+"activity.Facebook.title"="Facebook";
+"activity.Facebook.unconfigured.title"="No account available";
+"activity.Facebook.unconfigured.message"="You are currently not signed into a facebook account. You can configure this feature in the iOS settings.";
+
+/* Linkedin */
+"activity.LinkedIn.title"="LinkedIn";
+"activity.LinkedIn.dialog.title"="LinkedIn";
+
+/* Mail */
+"activity.Mail.title"="Mail";
+
+/* Message */
+"activity.Message.title"="Message";
+
+/* Print */
+"activity.Print.title"="Print";
+"activity.Print.error.title"="Error.";
+"activity.Print.error.message"="An error occured while printing: %@";
+
+/* Open in Safari */
+"activity.Safari.title"="Open in Safari";
+
+/* Twitter */
+"activity.Twitter.title"="Twitter";
+"activity.Twitter.unconfigured.title"="No account available";
+"activity.Twitter.unconfigured.message"="You are currently not signed into a Twitter account. You can configure this feature in the iOS settings.";

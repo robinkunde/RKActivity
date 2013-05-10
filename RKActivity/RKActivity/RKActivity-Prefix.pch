@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'RKActivity' target in the 'RKActivity' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <MessageUI/MessageUI.h>
+    #import <Social/Social.h>
+    #import <UIKit/UIKit.h>
+#endif
