@@ -7,33 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4E2BB817E9E9C7004835D2 /* RKActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E2BA417E9E9C7004835D2 /* RKActivity.m */; };
+		BE4E2BB917E9E9C7004835D2 /* RKActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E2BA717E9E9C7004835D2 /* RKActivityView.m */; };
+		BE4E2BBA17E9E9C7004835D2 /* RKActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E2BA917E9E9C7004835D2 /* RKActivityViewController.m */; };
+		BE4E2BBB17E9E9C7004835D2 /* RKCopyActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E2BAB17E9E9C7004835D2 /* RKCopyActivity.m */; };
+		BE4E2BBC17E9E9C7004835D2 /* RKFacebookActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E2BAD17E9E9C7004835D2 /* RKFacebookActivity.m */; };
+		BE4E2BBD17E9E9C7004835D2 /* RKMailActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E2BAF17E9E9C7004835D2 /* RKMailActivity.m */; };
+		BE4E2BBE17E9E9C7004835D2 /* RKMessageActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E2BB117E9E9C7004835D2 /* RKMessageActivity.m */; };
+		BE4E2BBF17E9E9C7004835D2 /* RKPrintActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E2BB317E9E9C7004835D2 /* RKPrintActivity.m */; };
+		BE4E2BC017E9E9C7004835D2 /* RKSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E2BB517E9E9C7004835D2 /* RKSafariActivity.m */; };
+		BE4E2BC117E9E9C7004835D2 /* RKTwitterActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E2BB717E9E9C7004835D2 /* RKTwitterActivity.m */; };
 		BE51DC2B173C21A3003968C0 /* icon_linkedin.png in Resources */ = {isa = PBXBuildFile; fileRef = BE51DC29173C21A3003968C0 /* icon_linkedin.png */; };
 		BE51DC2C173C21A3003968C0 /* icon_linkedin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE51DC2A173C21A3003968C0 /* icon_linkedin@2x.png */; };
 		BE8F10271731632D009DFC9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8F10261731632D009DFC9A /* Foundation.framework */; };
-		BE8F102C1731632D009DFC9A /* RKActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE8F102B1731632D009DFC9A /* RKActivity.h */; };
-		BE8F102E1731632D009DFC9A /* RKActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8F102D1731632D009DFC9A /* RKActivity.m */; };
-		BEE053D017317F5500A60127 /* RKActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE053BE17317F5500A60127 /* RKActivityView.m */; };
-		BEE053D117317F5500A60127 /* RKActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE053C117317F5500A60127 /* RKActivityViewController.m */; };
-		BEE053D217317F5500A60127 /* RKCopyActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE053C317317F5500A60127 /* RKCopyActivity.m */; };
-		BEE053D317317F5500A60127 /* RKFacebookActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE053C517317F5500A60127 /* RKFacebookActivity.m */; };
-		BEE053D417317F5500A60127 /* RKMailActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE053C717317F5500A60127 /* RKMailActivity.m */; };
-		BEE053D517317F5500A60127 /* RKMessageActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE053C917317F5500A60127 /* RKMessageActivity.m */; };
-		BEE053D617317F5500A60127 /* RKPrintActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE053CB17317F5500A60127 /* RKPrintActivity.m */; };
-		BEE053D717317F5500A60127 /* RKSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE053CD17317F5500A60127 /* RKSafariActivity.m */; };
-		BEE053D817317F5500A60127 /* RKTwitterActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE053CF17317F5500A60127 /* RKTwitterActivity.m */; };
 		BEE053DE1731803A00A60127 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE053DD1731803A00A60127 /* UIKit.framework */; };
 		BEE053E01731809D00A60127 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE053DF1731809D00A60127 /* MessageUI.framework */; };
 		BEE053E2173180A200A60127 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE053E1173180A200A60127 /* Social.framework */; };
-		BEE053E31731826D00A60127 /* RKActivities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEE053DC17317F6D00A60127 /* RKActivities.h */; };
-		BEE053E41731826D00A60127 /* RKActivityView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEE053BD17317F5500A60127 /* RKActivityView.h */; };
-		BEE053E51731826D00A60127 /* RKActivityViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEE053C017317F5500A60127 /* RKActivityViewController.h */; };
-		BEE053E61731826D00A60127 /* RKCopyActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEE053C217317F5500A60127 /* RKCopyActivity.h */; };
-		BEE053E71731826D00A60127 /* RKFacebookActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEE053C417317F5500A60127 /* RKFacebookActivity.h */; };
-		BEE053E81731826D00A60127 /* RKMailActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEE053C617317F5500A60127 /* RKMailActivity.h */; };
-		BEE053E91731826D00A60127 /* RKMessageActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEE053C817317F5500A60127 /* RKMessageActivity.h */; };
-		BEE053EA1731826D00A60127 /* RKPrintActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEE053CA17317F5500A60127 /* RKPrintActivity.h */; };
-		BEE053EB1731826D00A60127 /* RKSafariActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEE053CC17317F5500A60127 /* RKSafariActivity.h */; };
-		BEE053EC1731826D00A60127 /* RKTwitterActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEE053CE17317F5500A60127 /* RKTwitterActivity.h */; };
 		BEEB335A17319D2900E7410B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE6BDE6173187E00079AD67 /* CoreFoundation.framework */; };
 		BEEB336017319D2900E7410B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEEB335E17319D2900E7410B /* InfoPlist.strings */; };
 		BEEE72DE1731A206006BA0D8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEE72C21731A206006BA0D8 /* background.png */; };
@@ -64,17 +53,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				BEE053E31731826D00A60127 /* RKActivities.h in CopyFiles */,
-				BEE053E41731826D00A60127 /* RKActivityView.h in CopyFiles */,
-				BEE053E51731826D00A60127 /* RKActivityViewController.h in CopyFiles */,
-				BEE053E61731826D00A60127 /* RKCopyActivity.h in CopyFiles */,
-				BEE053E71731826D00A60127 /* RKFacebookActivity.h in CopyFiles */,
-				BEE053E81731826D00A60127 /* RKMailActivity.h in CopyFiles */,
-				BEE053E91731826D00A60127 /* RKMessageActivity.h in CopyFiles */,
-				BEE053EA1731826D00A60127 /* RKPrintActivity.h in CopyFiles */,
-				BEE053EB1731826D00A60127 /* RKSafariActivity.h in CopyFiles */,
-				BEE053EC1731826D00A60127 /* RKTwitterActivity.h in CopyFiles */,
-				BE8F102C1731632D009DFC9A /* RKActivity.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,33 +68,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE4E2BA217E9E9C7004835D2 /* RKActivities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKActivities.h; sourceTree = "<group>"; };
+		BE4E2BA317E9E9C7004835D2 /* RKActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKActivity.h; sourceTree = "<group>"; };
+		BE4E2BA417E9E9C7004835D2 /* RKActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKActivity.m; sourceTree = "<group>"; };
+		BE4E2BA517E9E9C7004835D2 /* RKActivityPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKActivityPrivate.h; sourceTree = "<group>"; };
+		BE4E2BA617E9E9C7004835D2 /* RKActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKActivityView.h; sourceTree = "<group>"; };
+		BE4E2BA717E9E9C7004835D2 /* RKActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKActivityView.m; sourceTree = "<group>"; };
+		BE4E2BA817E9E9C7004835D2 /* RKActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKActivityViewController.h; sourceTree = "<group>"; };
+		BE4E2BA917E9E9C7004835D2 /* RKActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKActivityViewController.m; sourceTree = "<group>"; };
+		BE4E2BAA17E9E9C7004835D2 /* RKCopyActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCopyActivity.h; sourceTree = "<group>"; };
+		BE4E2BAB17E9E9C7004835D2 /* RKCopyActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCopyActivity.m; sourceTree = "<group>"; };
+		BE4E2BAC17E9E9C7004835D2 /* RKFacebookActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKFacebookActivity.h; sourceTree = "<group>"; };
+		BE4E2BAD17E9E9C7004835D2 /* RKFacebookActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKFacebookActivity.m; sourceTree = "<group>"; };
+		BE4E2BAE17E9E9C7004835D2 /* RKMailActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKMailActivity.h; sourceTree = "<group>"; };
+		BE4E2BAF17E9E9C7004835D2 /* RKMailActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKMailActivity.m; sourceTree = "<group>"; };
+		BE4E2BB017E9E9C7004835D2 /* RKMessageActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKMessageActivity.h; sourceTree = "<group>"; };
+		BE4E2BB117E9E9C7004835D2 /* RKMessageActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKMessageActivity.m; sourceTree = "<group>"; };
+		BE4E2BB217E9E9C7004835D2 /* RKPrintActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKPrintActivity.h; sourceTree = "<group>"; };
+		BE4E2BB317E9E9C7004835D2 /* RKPrintActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKPrintActivity.m; sourceTree = "<group>"; };
+		BE4E2BB417E9E9C7004835D2 /* RKSafariActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSafariActivity.h; sourceTree = "<group>"; };
+		BE4E2BB517E9E9C7004835D2 /* RKSafariActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSafariActivity.m; sourceTree = "<group>"; };
+		BE4E2BB617E9E9C7004835D2 /* RKTwitterActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTwitterActivity.h; sourceTree = "<group>"; };
+		BE4E2BB717E9E9C7004835D2 /* RKTwitterActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTwitterActivity.m; sourceTree = "<group>"; };
 		BE51DC29173C21A3003968C0 /* icon_linkedin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_linkedin.png; sourceTree = "<group>"; };
 		BE51DC2A173C21A3003968C0 /* icon_linkedin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_linkedin@2x.png"; sourceTree = "<group>"; };
 		BE8F10231731632D009DFC9A /* libRKActivity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRKActivity.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8F10261731632D009DFC9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE8F102A1731632D009DFC9A /* RKActivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RKActivity-Prefix.pch"; sourceTree = "<group>"; };
-		BE8F102B1731632D009DFC9A /* RKActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKActivity.h; sourceTree = "<group>"; };
-		BE8F102D1731632D009DFC9A /* RKActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKActivity.m; sourceTree = "<group>"; };
-		BEE053BC17317F5500A60127 /* RKActivityPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKActivityPrivate.h; path = ../../../RKActivity/RKActivity/RKActivity/RKActivityPrivate.h; sourceTree = "<group>"; };
-		BEE053BD17317F5500A60127 /* RKActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKActivityView.h; path = ../../../RKActivity/RKActivity/RKActivity/RKActivityView.h; sourceTree = "<group>"; };
-		BEE053BE17317F5500A60127 /* RKActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKActivityView.m; path = ../../../RKActivity/RKActivity/RKActivity/RKActivityView.m; sourceTree = "<group>"; };
-		BEE053C017317F5500A60127 /* RKActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKActivityViewController.h; path = ../../../RKActivity/RKActivity/RKActivity/RKActivityViewController.h; sourceTree = "<group>"; };
-		BEE053C117317F5500A60127 /* RKActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKActivityViewController.m; path = ../../../RKActivity/RKActivity/RKActivity/RKActivityViewController.m; sourceTree = "<group>"; };
-		BEE053C217317F5500A60127 /* RKCopyActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKCopyActivity.h; path = ../../../RKActivity/RKActivity/RKActivity/RKCopyActivity.h; sourceTree = "<group>"; };
-		BEE053C317317F5500A60127 /* RKCopyActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKCopyActivity.m; path = ../../../RKActivity/RKActivity/RKActivity/RKCopyActivity.m; sourceTree = "<group>"; };
-		BEE053C417317F5500A60127 /* RKFacebookActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKFacebookActivity.h; path = ../../../RKActivity/RKActivity/RKActivity/RKFacebookActivity.h; sourceTree = "<group>"; };
-		BEE053C517317F5500A60127 /* RKFacebookActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKFacebookActivity.m; path = ../../../RKActivity/RKActivity/RKActivity/RKFacebookActivity.m; sourceTree = "<group>"; };
-		BEE053C617317F5500A60127 /* RKMailActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKMailActivity.h; path = ../../../RKActivity/RKActivity/RKActivity/RKMailActivity.h; sourceTree = "<group>"; };
-		BEE053C717317F5500A60127 /* RKMailActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKMailActivity.m; path = ../../../RKActivity/RKActivity/RKActivity/RKMailActivity.m; sourceTree = "<group>"; };
-		BEE053C817317F5500A60127 /* RKMessageActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKMessageActivity.h; path = ../../../RKActivity/RKActivity/RKActivity/RKMessageActivity.h; sourceTree = "<group>"; };
-		BEE053C917317F5500A60127 /* RKMessageActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKMessageActivity.m; path = ../../../RKActivity/RKActivity/RKActivity/RKMessageActivity.m; sourceTree = "<group>"; };
-		BEE053CA17317F5500A60127 /* RKPrintActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKPrintActivity.h; path = ../../../RKActivity/RKActivity/RKActivity/RKPrintActivity.h; sourceTree = "<group>"; };
-		BEE053CB17317F5500A60127 /* RKPrintActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKPrintActivity.m; path = ../../../RKActivity/RKActivity/RKActivity/RKPrintActivity.m; sourceTree = "<group>"; };
-		BEE053CC17317F5500A60127 /* RKSafariActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKSafariActivity.h; path = ../../../RKActivity/RKActivity/RKActivity/RKSafariActivity.h; sourceTree = "<group>"; };
-		BEE053CD17317F5500A60127 /* RKSafariActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKSafariActivity.m; path = ../../../RKActivity/RKActivity/RKActivity/RKSafariActivity.m; sourceTree = "<group>"; };
-		BEE053CE17317F5500A60127 /* RKTwitterActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKTwitterActivity.h; path = ../../../RKActivity/RKActivity/RKActivity/RKTwitterActivity.h; sourceTree = "<group>"; };
-		BEE053CF17317F5500A60127 /* RKTwitterActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKTwitterActivity.m; path = ../../../RKActivity/RKActivity/RKActivity/RKTwitterActivity.m; sourceTree = "<group>"; };
-		BEE053DC17317F6D00A60127 /* RKActivities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKActivities.h; path = ../../../RKActivity/RKActivity/RKActivity/RKActivities.h; sourceTree = "<group>"; };
 		BEE053DD1731803A00A60127 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BEE053DF1731809D00A60127 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		BEE053E1173180A200A60127 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -203,28 +181,28 @@
 		BE8F10281731632D009DFC9A /* RKActivity */ = {
 			isa = PBXGroup;
 			children = (
-				BEE053DC17317F6D00A60127 /* RKActivities.h */,
-				BE8F102B1731632D009DFC9A /* RKActivity.h */,
-				BE8F102D1731632D009DFC9A /* RKActivity.m */,
-				BEE053BC17317F5500A60127 /* RKActivityPrivate.h */,
-				BEE053BD17317F5500A60127 /* RKActivityView.h */,
-				BEE053BE17317F5500A60127 /* RKActivityView.m */,
-				BEE053C017317F5500A60127 /* RKActivityViewController.h */,
-				BEE053C117317F5500A60127 /* RKActivityViewController.m */,
-				BEE053C217317F5500A60127 /* RKCopyActivity.h */,
-				BEE053C317317F5500A60127 /* RKCopyActivity.m */,
-				BEE053C417317F5500A60127 /* RKFacebookActivity.h */,
-				BEE053C517317F5500A60127 /* RKFacebookActivity.m */,
-				BEE053C617317F5500A60127 /* RKMailActivity.h */,
-				BEE053C717317F5500A60127 /* RKMailActivity.m */,
-				BEE053C817317F5500A60127 /* RKMessageActivity.h */,
-				BEE053C917317F5500A60127 /* RKMessageActivity.m */,
-				BEE053CA17317F5500A60127 /* RKPrintActivity.h */,
-				BEE053CB17317F5500A60127 /* RKPrintActivity.m */,
-				BEE053CC17317F5500A60127 /* RKSafariActivity.h */,
-				BEE053CD17317F5500A60127 /* RKSafariActivity.m */,
-				BEE053CE17317F5500A60127 /* RKTwitterActivity.h */,
-				BEE053CF17317F5500A60127 /* RKTwitterActivity.m */,
+				BE4E2BA217E9E9C7004835D2 /* RKActivities.h */,
+				BE4E2BA317E9E9C7004835D2 /* RKActivity.h */,
+				BE4E2BA417E9E9C7004835D2 /* RKActivity.m */,
+				BE4E2BA517E9E9C7004835D2 /* RKActivityPrivate.h */,
+				BE4E2BA617E9E9C7004835D2 /* RKActivityView.h */,
+				BE4E2BA717E9E9C7004835D2 /* RKActivityView.m */,
+				BE4E2BA817E9E9C7004835D2 /* RKActivityViewController.h */,
+				BE4E2BA917E9E9C7004835D2 /* RKActivityViewController.m */,
+				BE4E2BAA17E9E9C7004835D2 /* RKCopyActivity.h */,
+				BE4E2BAB17E9E9C7004835D2 /* RKCopyActivity.m */,
+				BE4E2BAC17E9E9C7004835D2 /* RKFacebookActivity.h */,
+				BE4E2BAD17E9E9C7004835D2 /* RKFacebookActivity.m */,
+				BE4E2BAE17E9E9C7004835D2 /* RKMailActivity.h */,
+				BE4E2BAF17E9E9C7004835D2 /* RKMailActivity.m */,
+				BE4E2BB017E9E9C7004835D2 /* RKMessageActivity.h */,
+				BE4E2BB117E9E9C7004835D2 /* RKMessageActivity.m */,
+				BE4E2BB217E9E9C7004835D2 /* RKPrintActivity.h */,
+				BE4E2BB317E9E9C7004835D2 /* RKPrintActivity.m */,
+				BE4E2BB417E9E9C7004835D2 /* RKSafariActivity.h */,
+				BE4E2BB517E9E9C7004835D2 /* RKSafariActivity.m */,
+				BE4E2BB617E9E9C7004835D2 /* RKTwitterActivity.h */,
+				BE4E2BB717E9E9C7004835D2 /* RKTwitterActivity.m */,
 				BE8F10291731632D009DFC9A /* Supporting Files */,
 			);
 			path = RKActivity;
@@ -387,16 +365,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8F102E1731632D009DFC9A /* RKActivity.m in Sources */,
-				BEE053D017317F5500A60127 /* RKActivityView.m in Sources */,
-				BEE053D117317F5500A60127 /* RKActivityViewController.m in Sources */,
-				BEE053D217317F5500A60127 /* RKCopyActivity.m in Sources */,
-				BEE053D317317F5500A60127 /* RKFacebookActivity.m in Sources */,
-				BEE053D417317F5500A60127 /* RKMailActivity.m in Sources */,
-				BEE053D517317F5500A60127 /* RKMessageActivity.m in Sources */,
-				BEE053D617317F5500A60127 /* RKPrintActivity.m in Sources */,
-				BEE053D717317F5500A60127 /* RKSafariActivity.m in Sources */,
-				BEE053D817317F5500A60127 /* RKTwitterActivity.m in Sources */,
+				BE4E2BBB17E9E9C7004835D2 /* RKCopyActivity.m in Sources */,
+				BE4E2BB917E9E9C7004835D2 /* RKActivityView.m in Sources */,
+				BE4E2BBD17E9E9C7004835D2 /* RKMailActivity.m in Sources */,
+				BE4E2BC017E9E9C7004835D2 /* RKSafariActivity.m in Sources */,
+				BE4E2BBF17E9E9C7004835D2 /* RKPrintActivity.m in Sources */,
+				BE4E2BBA17E9E9C7004835D2 /* RKActivityViewController.m in Sources */,
+				BE4E2BB817E9E9C7004835D2 /* RKActivity.m in Sources */,
+				BE4E2BBE17E9E9C7004835D2 /* RKMessageActivity.m in Sources */,
+				BE4E2BBC17E9E9C7004835D2 /* RKFacebookActivity.m in Sources */,
+				BE4E2BC117E9E9C7004835D2 /* RKTwitterActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
